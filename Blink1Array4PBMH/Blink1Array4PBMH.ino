@@ -22,7 +22,7 @@
 // leds on lilypad USB are on pins 2,3,9,10,11,13  i.e. these are the output pins 
 // which of these can do PWM? 
 
-int ledarray [] {9,10,11,2,3,13}; // 13 is onboard
+int ledarray [] {2,3,9,10,11,13}; // 13 is onboard  {2,3,9,10,11,13}
 const int numLEDS =  6; // 4 ;
 
 void ledFlash (int whichLED, int numTimes, int delayv) {

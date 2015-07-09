@@ -16,8 +16,10 @@ int led = 9;           // the pin that the LED is attached to
 int brightness = 0;    // how bright the LED is
 int fadeAmount = 5;    // how many points to fade the LED by
 
-const int numLEDS =  4; // 4 ;
-int ledarray [numLEDS] ;  // mod to 4 LEDS which covers both the lilypad and the RGB LED
+int ledarray [] {9,10,11,2,3,13}; // 13 is onboard
+const int numLEDS =  6; // 4 ;
+
+// mod to 4 LEDS which covers both the lilypad and the RGB LED
 // #define numLEDS 4   // also size of array and therefore modulus base
 #define serialDebug 0
 int l  ;    // exp with 9 and get no error : diff between value and index
@@ -38,10 +40,10 @@ void setup()  {
       ; // wait for serial port to connect. Needed for Leonardo only
     }
   }
-  ledarray[0] = 2;
-  ledarray[1] = 3;
-  ledarray[2] = 9; 
-  ledarray[3] = 10; 
+ // ledarray[0] = 2;
+//
+ // ledarray[2] = 9; 
+ // ledarray[3] = 10; 
   // declare pin 9 to be an output:
   for (int s=0; s<numLEDS; s++) {
     pinMode(ledarray[s], OUTPUT);
