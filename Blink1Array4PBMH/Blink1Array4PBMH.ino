@@ -8,6 +8,9 @@
  
  This example code is in the public domain.
  Mike 9-July-2015
+ 13-July-2015 fixed silly bug in loop() where 
+ - lp was being incremented forever and delayvalue was being checked but never incremented/changed
+ - so re-enabled the for loop and uploaded AND updated in git 
  */
 
 // Pin 13 has an LED connected on most Arduino boards. Not always RED but often found on the PCB
@@ -61,15 +64,15 @@ void setup()  {
 void loop() {
   static int lp = 0; // 600;
   static int delayvalue  = 20;
-  // for (int lp=0;lp< 6; lp++){
+   for (int lp=0;lp< 6; lp++){
   ledFlash (ledarray[lp % numLEDS], 4, delayvalue);
 
-  lp++;
+ // lp++;
   if (delayvalue >= 600 )  {
     delayvalue=0; 
   }
 
-  //  }
+    }
   //  delayvalue= delayvalue + 5;      // slow the blinking down over time
   if (serialDebug) {
     Serial.print("delayvalue=: ");
