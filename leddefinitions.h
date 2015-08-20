@@ -2,8 +2,8 @@
 // 14 July -2015
 //  #include "/home/mike/lilypad/leddefinitions.h"
 
-int ledarray [] = {13,2,3,9,10,11,13}; // 13 is onboard  {2,3,9,10,11,13}
-const int numLEDS =  7; // 4 ;
+int ledarray [] = {6,7,8,9,10,11,12,13}; // 13 is onboard  {2,3,9,10,11,13}
+const int numLEDS =  8; // 4 ;
 //int ledarray [] = {2,3,4,5,6,7,8,9,10,11,12,13};
 // note about = above => arduino IDE enjoys with or without
 // gcc needs the = 
