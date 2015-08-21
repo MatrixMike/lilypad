@@ -19,4 +19,8 @@ Arduino wants to create it's own directory
 e.g. to be tested : have an .ino file in git repo directory and open it in Arduino 
 	saving it seems to create  directory elsewhere 
 	
+	
+21.08.2015 14:25:15
+remember to checkout File Preferences in Arduino IDE for sketchbook location
+	
 
