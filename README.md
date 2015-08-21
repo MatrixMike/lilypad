@@ -1,5 +1,6 @@
 # lilypad
-collection of example programs for Arduino Lilypad (USB) as inspired by WIE
+collection of example programs for Arduino Lilypad (USB) as 
+inspired by WIE
 
 Aim is to have a progression of files for training development.
 
@@ -13,14 +14,23 @@ added PWM but strange effects when using it in conjunction with ON/OFF
 21.08.2015 10:55:14   Friday after Blackburn meeting
 
 integration of Arduino and Git: thoughts:
-git seems happy to work in one chosen directory with any subdirectories created
+git seems happy to work in one chosen directory with any subdirectories
+ created
 
 Arduino wants to create it's own directory 
-e.g. to be tested : have an .ino file in git repo directory and open it in Arduino 
+e.g. to be tested : have an .ino file in git repo directory and open
+ it in Arduino 
 	saving it seems to create  directory elsewhere 
 	
 	
 21.08.2015 14:25:15
 remember to checkout File Preferences in Arduino IDE for sketchbook location
+remember that if your Linux installation does not easily
+ allow permissions for using the USB port, sudo arduino from command
+line will provide a temporary fix. The Arduino 1.6.6 builds and thereabouts
+do a good job of auto-detecting the Lilypad and setting the port for uploads.
+
+
+
 	
 
