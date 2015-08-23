@@ -29,6 +29,10 @@ remember that if your Linux installation does not easily
  allow permissions for using the USB port, sudo arduino from command
 line will provide a temporary fix. The Arduino 1.6.6 builds and thereabouts
 do a good job of auto-detecting the Lilypad and setting the port for uploads.
+====
+the history files are included as reminders of CL activity at the time of building
+====
+soon to add git sync with SSH a.o.t. email & password
 
 
 
