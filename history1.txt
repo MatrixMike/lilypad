@@ -1,0 +1,500 @@
+   11  clojure1.4 javax-swing.clj 
+   12  clojure1.4 javax-swing.clj 
+   13  clojure1.4 javax-swing.clj 
+   14  clojure1.4 javax-swing.clj 
+   15  clojure1.4 javax-swing.clj 
+   16  clojure1.4 javax-swing.clj 
+   17  clojure1.4 javax-swing.clj 
+   18  clojure1.4 javax-swing.clj 
+   19  clojure1.4 javax-swing.clj 
+   20  clojure1.4 javax-swing.clj 
+   21  clojure1.4 javax-swing.clj 
+   22  clojure1.4 javax-swing.clj 
+   23  clojure1.4 javax-swing.clj 
+   24  clojure1.4 javax-swing.clj 
+   25  clojure1.4 javax-swing.clj 
+   26  clojure1.4 javax-swing.clj 
+   27  clojurec javax-swing.clj 
+   28  clojure1.4 main1.clj 
+   29  clojurec main1.clj 
+   30  clojure1.4 
+   31  clojurec javax-swing.clj 
+   32  clojure1.4 javax-swing.clj 
+   33  lsusb 
+   34  df -h
+   35  vlc
+   36  cd ~/
+   37  ls -a
+   38  pwd
+   39  cd /
+   40  ls -a
+   41  lsusb 
+   42  lsusb 
+   43  mount
+   44  mount
+   45  mount
+   46  mount
+   47  lsusb 
+   48  watch -10 df -h
+   49  watch -n10 df -h
+   50  watch -n10 df -h
+   51  watch -n10 df -h
+   52  watch -n10 df -h
+   53  cd ~/Downloads/
+   54  ls -lc
+   55  ls -lct
+   56  java Queens 
+   57  ls /dev/usb/
+   58  javac -version
+   59  uname -a
+   60  cd ~/
+   61  mkdir MYKI
+   62  df -h
+   63  cd /boot/
+   64  ls -lc
+   65  uname -a
+   66  uname -a
+   67  free
+   68  free
+   69  free -m
+   70  free --help
+   71  free -h
+   72  cd ~/
+   73  mkdir drupal
+   74  ls  -lc
+   75  ls  -lct
+   76  ls  -lc
+   77  cd ~/
+   78  ls -lc
+   79  mkdir cpp
+   80  apturl --help
+   81  pwd
+   82  cd HBMS/
+   83  ls -lc
+   84  mkdir RAAFride
+   85  cd RAAFride/
+   86  lsusb 
+   87  cd ~/
+   88  pwd
+   89  ls -lc
+   90  mkdir CompaqPresario
+   91  cd CompaqPresario
+   92  ls -lc
+   93  ld mike/
+   94  ls mike/
+   95  ssh 10.0.0.4
+   96  ssh mike@10.0.0.5
+   97  ping 10.0.0.5
+   98  ping 10.0.0.6
+   99  ssh mike@10.0.0.6
+  100  cd ~/Photos/
+  101  mkdir Lilypad
+  102  df -h
+  103  cd ~/
+  104  mkdir JVM
+  105  cd JVM
+  106  df -h
+  107  cd /boot/
+  108  ls -lc
+  109  uname -a
+  110  mount
+  111  cd ~/
+  112  ls -lc
+  113  mkdir DLink
+  114  cd DLink/
+  115  ping 10.0.0.129
+  116  ping 10.0.0.129
+  117  ping 10.0.0.129
+  118  ifconfig 
+  119  ping 10.0.0.129
+  120  ping 10.0.0.129
+  121  ping 10.0.0.129
+  122   ifconfig 
+  123   ifconfig 
+  124   ifconfig 
+  125  ping 10.0.0.129
+  126  history | grep git
+  127  pwd
+  128  mkdir car
+  129  mount
+  130  mount
+  131  mount
+  132  mount
+  133  cd /media/mike/IDElaptop/
+  134  df -h
+  135  tree
+  136  cd ~/
+  137  df -h
+  138  df -h
+  139  df -h
+  140  ping 10.0.0.11
+  141  ssh mike@10.0.0.11
+  142  ssh mikeh@10.0.0.11
+  143  df -h
+  144  ssh mikeh@10.0.0.11
+  145  ifconfig 
+  146  w
+  147  whoami 
+  148  w
+  149  whoami 
+  150  geany
+  151  pwd
+  152  cd clojure/
+  153  ls -lc
+  154  clojure1.4 javaxSwing1.clj 
+  155  cd clojure-master/
+  156  ls -lc
+  157  clojure1.4  javax-clojure2.clj 
+  158  clojure1.4  pelican-riders.clj 
+  159  clojure1.4  javax-swing.clj 
+  160  clojure1.4  showargs.clj   one two
+  161  clojure1.4  javax-clojure2.clj 
+  162  pwd
+  163  ls -lc
+  164  ./gtk_colours 
+  165  cd gtk-foobar
+  166  ls -lc
+  167  cd Debug/
+  168  ls -lc
+  169  cat config.log 
+  170  cat config.log 
+  171  ls -lc
+  172  cd po/
+  173  ls -lc
+  174  cd ../..
+  175  ls -lc
+  176  cd ..
+  177  ls  gtk    -lc
+  178  ls  gtk*    -lc
+  179  df -h
+  180  putty
+  181  df -h
+  182  mount
+  183  mount
+  184  df -h
+  185  ping 10.0.01
+  186  ping 10.0.0.1
+  187  ssh pi@10.0.0.1
+  188  history| grep keyg 
+  189  ssh-keygen -f "/home/mike/.ssh/known_hosts" -R 10.0.0.1
+  190  ssh pi@10.0.0.1
+  191  putty &
+  192  ping 10.0.0.4
+  193  ping 10.0.0.4
+  194  ssh dsl@10.0.0.4
+  195  pwd
+  196  mkdir intellij
+  197  cd intellij/
+  198  ls -lc
+  199  cd idea-IU-141.1532.4/
+  200  ls -lc
+  201  cd bin/
+  202  ls -lc
+  203  ./idea.sh 
+  204  java  -version
+  205  javac  -version
+  206  df -h
+  207  sudo apt-get install isc-dhcp-server
+  208  lsusb 
+  209  lsusb 
+  210  cd ~/
+  211  mkdir BBCbasic
+  212  cd BBCbasic/
+  213  cd ..
+  214  mkdir TI-Inspire
+  215  cd TI-Inspire/
+  216  ping 10.0.0.4
+  217  ssh dsl@10.0.0.4
+  218  df -h
+  219  pwd\
+  220  pwd
+  221  mkdir pugs
+  222  cd ~/
+  223  pwd
+  224  ls -lc
+  225  ls -lc | more 
+  226  ls -lc | more 
+  227  ls ard*
+  228  mkdir arduino-Phyllis
+  229  lsusb 
+  230  ls /dev/ttyS0 
+  231  cd ~/pelicans/
+  232  mkdir June2015
+  233  cd ju
+  234  cd June2015/
+  235  cd ~/RPi/
+  236  mkdir new4coreImage
+  237  cd new
+  238  cd new4coreImage/
+  239  ls -lh
+  240  cd /media/mike/ManjaroHome/mikeh/thisPC/
+  241  ls -lc
+  242  grep b43 dmesg1.txt 
+  243  grep b43 dmesg2.txt 
+  244  grep b43 dmesg3.txt 
+  245  pwd
+  246  ls 
+  247  mkdir DellInspiron
+  248  cd DellInspiron/
+  249  cp /media/mike/ManjaroHome/mikeh/thisPC/
+  250  cp /media/mike/ManjaroHome/mikeh/thisPC/* . 
+  251  ls -lc
+  252  more < sensors1.txt 
+  253  more < hwinfo.txt 
+  254  more < mhwd-kernel1.txt 
+  255  cd /media/mike/fc254b57-8fff-4f96-9609-ea202d871acf/home/pi/mike/javame81ea/
+  256  ls -lc
+  257  cd ..
+  258  tree
+  259  ls 
+  260  cd javame81ea/bin/
+  261  ls 
+  262  ls -lc
+  263  cat installMidlet.sh 
+  264  cat listMidlets.sh 
+  265  cat removeMidlet.sh 
+  266  ls 
+  267  cat run.sh 
+  268  cat runSuite.sh 
+  269  cat usertest.sh 
+  270  ls -lc
+  271  ./runMidlet 
+  272  hexdump runMidlet 
+  273  hexdump --help
+  274  man hexdump
+  275  hexdump runMidlet -c
+  276  man hexdump
+  277  hexdump runMidlet -e
+  278  ls -lc
+  279  ls -lc > mikeList.txt
+  280  ls -lc
+  281  cat mikeList.txt 
+  282  history 
+  283  cat listMidlets.sh 
+  284  cat listMidlets.sh >> shells1.txt
+  285  ls -lc
+  286  cat shells1.txt 
+  287  history 
+  288  cat installMidlet.sh 
+  289  cat installMidlet.sh >> shells1.txt 
+  290  cat removeMidlet.sh 
+  291  cat removeMidlet.sh >> shells1.txt 
+  292  cat shells1.txt 
+  293  ls -lc
+  294  cat run.sh 
+  295  cat run.sh >> shells1.txt 
+  296  cat shells1.txt 
+  297  ls -lc
+  298  cat mikeList.txt 
+  299  cat listMidlets.sh 
+  300  cat jwc_properties.ini 
+  301  cd ~/
+  302  df -h
+  303  cd  /media/mike/POCKET/
+  304  ls -lc
+  305  df -h
+  306  du 
+  307  ls
+  308  ls  -lc
+  309  du 
+  310  mkdir RPiUbuntu
+  311  du 
+  312  ls  -lc
+  313  ls  -lc
+  314  cd RPiUbuntu/
+  315  ls  -lc
+  316  cd ~/
+  317  ssh ubuntu@10.0.0.4
+  318  ssh ubuntu@10.0.0.4
+  319  ssh ubuntu@10.0.0.4
+  320  ssh ubuntu@10.0.0.4
+  321  ssh ubuntu@10.0.0.4
+  322  ssh ubuntu@10.0.0.4
+  323  ssh ubuntu@10.0.0.4
+  324  ssh-keygen -f "/home/mike/.ssh/known_hosts" -R 10.0.0.4
+  325  ssh ubuntu@10.0.0.4
+  326  ping 10.0.0.4
+  327  ssh ubuntu@10.0.0.4
+  328  ssh ubuntu@10.0.0.4
+  329  ssh ubuntu@10.0.0.4
+  330  df -h
+  331  df -h
+  332  df -h
+  333  df -h
+  334  df -h
+  335  df -h
+  336  df -h
+  337  df -h
+  338  df -h
+  339  df -h
+  340  df -h
+  341  watch -n 10 df -h
+  342  df -h
+  343  inxi -f
+  344  inxi -F
+  345  man apt-get 
+  346  pwd
+  347  cd ~/
+  348  mkdir nffc
+  349  df -h
+  350  dpkg 
+  351  dpkg --list 
+  352  dpkg --list | more
+  353  dpkg --list > ~/thisPC/dpkgList1.txt
+  354  ls ~/thisPC/dpkgList1.txt 
+  355  ls ~/thisPC/dpkgList1.txt -lc
+  356  more <  ~/thisPC/dpkgList1.txt 
+  357  dpkg --list 'linux-image*'
+  358  uname -a
+  359  uname -r
+  360  man dpkg
+  361  cd ~/thisPC
+  362  man dpkg  > dpkgman1.txt
+  363  ls -lc
+  364  more < dpkgman1.txt 
+  365   cd  /etc/ssh/
+  366  ls -lc
+  367  ls -lct
+  368  cat ssh_config 
+  369  uname -a
+  370  ifconfig 
+  371  w
+  372  w -i
+  373  w -o
+  374  whoami 
+  375  pwd
+  376  mkdir gx620-745
+  377  cd /etc/ssh/
+  378  ls -lc
+  379  more < sshd_config 
+  380  cd /etc/ssh/
+  381  ls -lc
+  382  date 
+  383  more < sshd_config 
+  384  w
+  385  whoami 
+  386  top
+  387  top
+  388  cd /etc/ssh/
+  389  ls -lc
+  390  more < sshd_config 
+  391  cp ssh_config ssh_config origMJH
+  392  cp ssh_config ssh_config origMJH.txt
+  393  cp ssh_config ssh_config ~/thisPC/origMJH.txt
+  394  cp ssh_config ssh_config ~/thisPC/
+  395  cp ssh_config  ~/thisPC/
+  396  ls -lc
+  397  ls ~/thisPC
+  398  geany ssh_config &
+  399  geany sshd_config &
+  400  ls -lc
+  401  sudo geany sshd_config &
+  402  sudo geany sshd_config &
+  403  ifconfig 
+  404  ls -lc
+  405  pwd
+  406  ls l* -lc
+  407  git
+  408  git status
+  409  git clone https://github.com/MatrixMike/lilypad.git
+  410  cd lilypad/
+  411  ls  -lc
+  412  git status
+  413  git status
+  414  git add Blink1Array4PBMH
+  415  git add Fade1Array4PBMH
+  416  git status
+  417  tree
+  418  git status
+  419  git add tshirtled.ino
+  420  git status
+  421  git status
+  422  history 
+  423  history | grep git
+  424  ssh mikeh@10.0.0.9
+  425  ifconfig 
+  426  ssh mikeh@10.0.0.4
+  427  ssh-keygen -f "/home/mike/.ssh/known_hosts" -R 10.0.0.4
+  428  ssh mikeh@10.0.0.4
+  429  sftp mikeh@10.0.0.4
+  430  pwd
+  431  cd githelp/
+  432  ls -lc
+  433  more < history4.txt 
+  434  grep git history4.txt 
+  435  cd ~/lilypad/
+  436  git push -u origin master
+  437  git status
+  438  ls -lc
+  439  git commit -m "from LM  745"
+  440  git config --global user.email matroxmike@icloud.com
+  441  git config --global user.name "Mike Hewitt"
+  442  git commit -m "from LM  745"
+  443  git status
+  444  git push -u origin master
+  445  git push -u origin master
+  446  git status
+  447  ls -lc
+  448  cat README.md 
+  449  git status
+  450  git push -u origin master
+  451  git commit -m "from LM  745 b"
+  452  ls -lc
+  453  git commit -a
+  454  git commit -a
+  455  ls -lc
+  456  git status
+  457  ls -lc
+  458  tree
+  459  git commit -a
+  460  git commit -m "from LM  745 c"
+  461  git push
+  462  git push
+  463  git status
+  464  ls -lc
+  465  tree
+  466  git status
+  467  git add tshirtled/
+  468  git status
+  469  git push
+  470  git commit -m "from LM  745 d"
+  471  ls -lc
+  472  tree
+  473  git status
+  474  git push
+  475  git status
+  476  cd ~/lilypad/
+  477  ls -lc
+  478  git status
+  479  df -h
+  480  cd /media/mike/PENDRIVE/cbtcod/opticalDrives/
+  481  ls -lc
+  482  grep Ident  *.txt
+  483  cd ~/opticalDrives/
+  484  ls -lc
+  485  chmod +777 *
+  486  ls -lc
+  487  df -h
+  488  df -h
+  489  cd ~/
+  490  mkdir Xorg
+  491  df -h
+  492  ssh mikeh@10.0.0.8
+  493  sftp mikeh@10.0.0.8
+  494  ssh mikeh@10.0.0.8
+  495  ping 10.0.0.8
+  496  gftp
+  497  sudo apt-get install gftp
+  498  sudo apt-get install gftp
+  499  sudo apt-get install gftp
+  500  uname -a
+  501  cd ~/lilypad/
+  502  ls -lc
+  503  git status
+  504  git status
+  505  git add README.md
+  506  git status
+  507  git add Blink1Array4PBMH/
+  508  git status
+  509  history 
+  510  history > history1.txt

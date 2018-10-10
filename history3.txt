@@ -1,0 +1,500 @@
+   23  javac --version
+   24  javac -version
+   25  ls j*
+   26  pwd
+   27  ls j*  -lc
+   28  ls -lc
+   29  cd java
+   30  ls -lc
+   31  cd datejava/
+   32  ls -lc
+   33  cat date.java 
+   34  javac date.java 
+   35  ls -lc
+   36  javac DateUsingCalendar.java 
+   37  ls -lc
+   38  more < DateUsingCalendar.java 
+   39  java -cp . DateUsingCalendar 
+   40  ifconfig 
+   41  w
+   42  whoami 
+   43  cd ../simple/
+   44  ls -lc
+   45  javac page27.java 
+   46  ls -lc
+   47  java page27 
+   48  javac lambdaTest1.java 
+   49  ls -lc
+   50  java lambdaTest1 
+   51  more < lambdaTest1.java 
+   52  java  -cp . lambdaTest1 
+   53  cd ..
+   54  javac -cp . simple/lambdaTest1.java 
+   55  java  -cp . simple.lambdaTest1 
+   56  ls
+   57  cd simple/
+   58  ls
+   59  ls -lc
+   60  more < page27.java 
+   61  more < lambdaTest1.java 
+   62  javac -cp . simple/lambdaTest1.java 
+   63  cd ..
+   64  javac -cp . simple/lambdaTest1.java 
+   65  java -cp . simple.lambdaTest1 
+   66  java -cp . simple.lambdaTest1 
+   67  cd simple/
+   68  ls -lc
+   69  javac page11.java 
+   70  java page11 
+   71  java page11 mike
+   72  git init
+   73  echo "# javaLowLevel " >> README.md
+   74  ls -lc
+   75  git add README.md
+   76  git add *.java
+   77  git status
+   78  git commit -m "first commit" 
+   79  git remote add origin https://github.com/MatrixMike/javaLowLevel.git
+   80  git push -u origin master
+   81  git status
+   82  ls -lc
+   83  rm *.class
+   84  ls -lc
+   85  javac page11.java 
+   86  ls -lc
+   87  javac *.java 
+   88  ls -lc
+   89  ls -lct
+   90  ls *.java -lct
+   91  javac page11.java 
+   92  java page11
+   93  java page11    mike
+   94  javac page11a.java 
+   95  java page11a    mike
+   96  java page11a    
+   97  javac page27.java 
+   98  java page27 
+   99  javac lambdaTest1.java 
+  100  java lambdaTest1 
+  101  pwd
+  102  ls -lct
+  103  javac MainClass.java 
+  104  ls -lct
+  105  java MainClass 
+  106  java MainClass 
+  107  git status
+  108  git add MainClass.java
+  109  git status
+  110  git push -u origin master
+  111  git push -u origin master
+  112  git commit -m "first commit" 
+  113  git push -u origin master
+  114  git status
+  115  git status
+  116  ls -lct
+  117  javac lambdaTest2.java 
+  118  javac lambdaTest2.java 
+  119  java lambdaTest2 
+  120  git status
+  121  git add lambdaTest2.java
+  122  git status
+  123  ls *.java -lc
+  124  java lambdaTest2 
+  125  java lambdaTest2 
+  126  git status
+  127  history 
+  128  git push -u origin master
+  129  git push -u origin master
+  130  ls -lc
+  131  git commit -m "first commit" 
+  132  git push -u origin master
+  133  git status
+  134  git commit -m "few basic modifications" 
+  135  git status
+  136  git push -u origin master
+  137  git status
+  138  git commit -a
+  139  git status
+  140  ls -lc
+  141  cat README.md 
+  142  git push -u origin master
+  143  ls -lc
+  144  ls *.class  -lc
+  145  javac *.java
+  146  ls *.class  -lc
+  147  rm *.class
+  148  ls -lc
+  149  javac *.java
+  150  ls -lc
+  151  ls -lct
+  152  ls -lc
+  153  javac Calculator.java 
+  154  java Calculator 
+  155  git add Calculator.java
+  156  git status
+  157  uname -a
+  158  git commit -a
+  159  git commit -a
+  160  git status
+  161  git push -u origin master
+  162  javac -version
+  163  git status
+  164  git commit -a
+  165  git push -u origin master
+  166  git push -u origin master
+  167  ls -lct
+  168  ls *.java -lct
+  169  ls *.java -lc
+  170  cd ~/lambda/
+  171  ls -lc
+  172  java SolutionsLesson1 
+  173  java Lesson2
+  174  java Lesson2a
+  175  rm *.class
+  176  ls -lc
+  177  javac *.java
+  178  ls -lc
+  179  java Lesson2
+  180  more < Lesson2.java 
+  181  more < Lesson2a.java 
+  182  cd ~/java/simple/
+  183  ls -lc
+  184  lsusb 
+  185  lsusb 
+  186  lsusb 
+  187  lsusb 
+  188  lsusb 
+  189  dmesg 
+  190  ifconfig 
+  191  whoami 
+  192  cd /home/
+  193  ls -lc
+  194  ls mike
+  195  pwd
+  196  ls mikeh
+  197  whoami 
+  198  cd lambda/
+  199  ls -lc
+  200  javac -version
+  201  java Lesson2
+  202  java -cp . Lesson2
+  203  java --help
+  204  java -help
+  205  java -help
+  206  java -showversion
+  207  java -showversion > showversion.txt
+  208  java -showversion 2> showversion.txt
+  209  ls -lc
+  210  cat showversion.txt 
+  211  lpr showversion.txt 
+  212  lpstat
+  213  lpstat
+  214  lpstat
+  215  ls
+  216  ls .
+  217  cd ..
+  218  java -cp . lambda.Lesson2 
+  219  javac -cp lambda/*
+  220  javac -cp lambda/*.java
+  221  java -cp . lambda.Lesson2a 
+  222  lsusb 
+  223  lsusb 
+  224  lsusb 
+  225  lsusb 
+  226  lsusb 
+  227  dmesg 
+  228  dmesg 
+  229  dmesg 
+  230  cd ~/gro
+  231  lsusb 
+  232  lsusb 
+  233  lsusb 
+  234  lsusb -v
+  235  cd ~/
+  236  mkdir groovy
+  237  cd groovy/
+  238  ls -lc
+  239  groovy
+  240  sudo apt-get install groovy
+  241  sudo apt-get install groovyc
+  242  cd ~/
+  243  mkdir cube4
+  244  lsusb 
+  245  uname -a
+  246  cd ~/
+  247  mkdir arduino165
+  248  cd arduino165/
+  249  ls -lc
+  250  cd arduino-1.6.5/
+  251  ls -lc
+  252  ./arduino 
+  253  cd ~/
+  254  cd cube4/
+  255  ls -lc
+  256  mv Cube4-master/ Cube4master/
+  257  ls -lc
+  258  lsusb 
+  259  df -h
+  260  lsusb 
+  261  lsusb 
+  262  dmesg 
+  263  cd ~/thisPC
+  264  ls -lc
+  265  dmesg > dmesg4.txt
+  266  ls -lc
+  267  dmesg 
+  268  javac -version
+  269  cd ~/java/simple/
+  270  ls -lc
+  271  pwd
+  272  ls -lct
+  273  ls -lc
+  274  ls -lc
+  275  cd lambda/
+  276  ls -lc
+  277  lls
+  278  lcd
+  279  exit
+  280  ifconfig 
+  281  ifconfig 
+  282  whoami 
+  283  ping 10.0.011
+  284  ping 10.0.0.11
+  285  sftp mikeh@10.0.0.11
+  286  ssh mikeh@10.0.0.11
+  287  lsusb 
+  288  javac -version
+  289  df -h
+  290  cd /boot/
+  291  df -h
+  292  ls -lct
+  293  javac -version
+  294  cd ~/Downloads/
+  295  ls -lc
+  296  java SolutionsLesson2 
+  297  java SolutionsLesson2  > Solutionlesson2out.txt
+  298  ls -lc
+  299  cd ~/java/Examples/
+  300  ls -lc
+  301  cd Example1
+  302  ls -lc
+  303  ls -lc
+  304  cd src/
+  305  ls -lc
+  306  cd ex
+  307  cd example1/
+  308  ls -lc
+  309  java Example1 
+  310  cd ..
+  311  ls -lc
+  312  cd ..
+  313  ls -lc
+  314  cd ..
+  315  ls -lc
+  316  cd Example3
+  317  ls -lc
+  318  cd src/
+  319  ls -lc
+  320  cd example3/
+  321  ls -lc
+  322  javac *.java
+  323  ls -lc
+  324  java Example3 
+  325  javac *.java
+  326  javac *.java
+  327  java Example3 
+  328  ls -lc
+  329  java Example3 > Example3out.txt
+  330  ls -lc
+  331  cat Example3out.txt 
+  332  javac *.java
+  333  ls -lc
+  334  ls -lct
+  335  java Example3 
+  336  javac *.java
+  337  java Example3 
+  338  ls -lct
+  339  javac *.java
+  340  java Example3 
+  341  java Example3 
+  342  java Example3 
+  343  ls -lct
+  344  lsusb 
+  345  lsusb 
+  346  cd arduino165/arduino-1.6.5/
+  347  ls -lc
+  348  ./arduino 
+  349  pwd
+  350  cd Downloads/
+  351  ls -lc
+  352  ls -lct
+  353  exit
+  354  cd arduino165/arduino-1.6.5/
+  355  ./arduino 
+  356  ./arduino 
+  357  ifconfig 
+  358  w
+  359  whoami 
+  360  lsusb 
+  361  arduino-1.6.5/
+  362  ./arduino 
+  363  ./arduino 
+  364  cd arduino165/arduino-1.6.5/
+  365  ./arduino 
+  366  lsusb 
+  367  lsusb 
+  368  tail dmesg
+  369  dmesg | tail
+  370  dmesg | tail
+  371  dmesg | tail
+  372  dmesg | tail
+  373  dmesg | tail
+  374  lsusb 
+  375  lsusb 
+  376  lsusb 
+  377  lsusb 
+  378  lsusb 
+  379  cd arduino165/arduino-1.6.5/
+  380  ./arduino 
+  381  ./arduino 
+  382  pwd
+  383  ls lilypad/
+  384  ls -lc
+  385  df -h
+  386  cd JVM-MOOC/
+  387  ls -lc
+  388  ifconfig 
+  389  whoami 
+  390  pwd
+  391  ls -lc
+  392  cd lilypad/
+  393  ls -lc
+  394  git status
+  395  git log
+  396  git pull
+  397  git log
+  398  git status
+  399  git status
+  400  cat history1.txt 
+  401  git status
+  402  git add glove1/
+  403  git status
+  404  history | grep git 
+  405  git commit -m "adding glove"
+  406  git status
+  407  history | grep git 
+  408  git push -u origin master
+  409  git pull
+  410  git status
+  411  ls -lc
+  412  git status
+  413  git pull
+  414  git status
+  415  ls -lc
+  416  cd ADXL3xx/
+  417  ls -lc
+  418  cat ADXL3xx.ino 
+  419  cd arduino165/arduino-1.6.5/
+  420  ./arduino 
+  421  cd ~/
+  422  ls java
+  423  ls -lc
+  424  cd  java
+  425  ls -lc
+  426  sftp mikeh@10.0.0.4
+  427  ls -lc
+  428  javac Recursion2.java 
+  429  java Recursion2
+  430  sftp mikeh@10.0.0.4
+  431  ssh mikeh@10.0.0.4
+  432  sftp mikeh@10.0.0.4
+  433  ls -lc
+  434  ls -lc
+  435  lpstat 
+  436  cd ..
+  437  ls -lc
+  438  git status
+  439  git add glove1/
+  440  git status
+  441  git commit -m "added light sensor"
+  442  git status
+  443  git push -u origin master
+  444  git status
+  445  git push -u origin master
+  446  git log
+  447  git status
+  448  git status
+  449  ls -lc
+  450  ls glove1/
+  451  ls glove1/  -lc
+  452  ls -lc
+  453  ls glove1/  -lc
+  454  git status
+  455  git add glove1/glove1/glove1.ino
+  456  git status
+  457  git commit -m "added light sensor 2"
+  458  git push -u origin master
+  459  cd arduino165/arduino-1.6.5/
+  460  ./arduino 
+  461  ls -lc
+  462  git status
+  463  git pull
+  464  git status
+  465  ls -lc
+  466  git status
+  467  cat README.md 
+  468  geany README.md 
+  469  git status
+  470  cat leddefinitions.h 
+  471  git add leddefinitions.h
+  472  git status
+  473  git commit -m "added PWM to fingers"
+  474  git status
+  475  git push -u origin master
+  476  git push -u origin master
+  477  git log
+  478  git status
+  479  ./arduino 
+  480  cd ~/Arduino
+  481  ls -lc
+  482  cd glove1/
+  483  ls -lc
+  484  more < glove1.ino 
+  485  geany glove1.ino 
+  486  lpstat 
+  487  lsusb 
+  488  lpstat 
+  489  ls -lc
+  490  cat leddefinitions.h 
+  491  ls -lc
+  492  cd glove1/
+  493  ls -lc
+  494  tree
+  495  ls -lc
+  496  ls glove1/glove1.ino -lc
+  497  ls -lc
+  498  cd ..
+  499  ls -lc
+  500  ./arduino 
+  501  cd ~/lilypad/
+  502  git status
+  503  more < glove1/glove1/glove1.ino 
+  504  git status
+  505  git add glove1/glove1/glove1.ino
+  506  git status
+  507  cat README.md 
+  508  ls -lc
+  509  cat lilypadC.c 
+  510  ls -lc
+  511  ./lilypadC 
+  512  ls -lc
+  513  ./lilypadC 
+  514  ./lilypadC 
+  515  git status
+  516  cat history1.txt 
+  517  git status
+  518  git add history1.txt
+  519  git add history2.txt
+  520  git status
+  521  git status
+  522  history > history3.txt
