@@ -1,4 +1,5 @@
 # lilypad
+# revisited Mon 14 Oct 2019 19:42:05 AEDT 
 collection of example programs for Arduino Lilypad (USB) as 
 inspired by WIE
 
