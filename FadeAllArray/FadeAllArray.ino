@@ -32,19 +32,14 @@ void setup() {
 }
 // the loop routine runs over and over again forever:
 void loop() {
+  // fadeAmount = 5;
+
+  //  fadeAll();
+  //   temp fadeAmount = 5;
+
   fadeAll();
   // set the brightness of pin 9:
-  analogWrite(led, brightness);
-
-  // change the brightness for next time through the loop:
-  brightness = brightness + fadeAmount;
-
-  // reverse the direction of the fading at the ends of the fade:
-  if (brightness == 0 || brightness == 255) {
-    fadeAmount = -fadeAmount ;
-  }
-  // wait for 30 milliseconds to see the dimming effect
-  delay(30);
+  //x analogWrite(led, brightness);
 }
 
 void fadeAll() {
@@ -52,10 +47,13 @@ void fadeAll() {
     analogWrite(fadeArray[f], brightness);
   }
   brightness = brightness + fadeAmount;
-  if (brightness == 0 || brightness == 255) {
+  // notice that fadeAmount is set (written to) twice in loop() 
+  // brightness = brightness + fadeAmount;
+  // brightness = brightness + fadeAmount;
+  if (brightness <= 1 || brightness >= 255) {
     fadeAmount = -fadeAmount ;
   }
-  delay(30);
+  delay(30);  // a delay here slows down the WHOLE loop
 }
 
 
