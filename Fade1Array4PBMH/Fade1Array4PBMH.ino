@@ -1,9 +1,9 @@
 // 11:53 / 12 Jun 2015  
 // 12:19
 // 13 jun 2015 @ 11:55
-// orginal simple code by Arduino team
+// original simple code by Arduino team
 // the extra parts here were written by Michael Hewitt around 12 July 2015
-// added const and tidied nextLED routine 
+// added const and tidied next-LED routine 
 /*
  Fade
  This example shows how to fade an LED on pin 9
@@ -16,10 +16,10 @@ int led = 9;           // the pin that the LED is attached to
 int brightness = 0;    // how bright the LED is
 int fadeAmount = 5;    // how many points to fade the LED by
 
-int ledarray [] {9,10,11,2,3,13}; // 13 is onboard
+int ledarray [] {9,10,11,2,3,13}; // 13 is on-board
 const int numLEDS =  6; // 4 ;
 
-// mod to 4 LEDS which covers both the lilypad and the RGB LED
+// mod to 4 LEDS which covers both the lily-pad and the RGB LED
 // #define numLEDS 4   // also size of array and therefore modulus base
 #define serialDebug 0
 int l  ;    // exp with 9 and get no error : diff between value and index

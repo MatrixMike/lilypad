@@ -1,7 +1,7 @@
 /*
-  Blink   modified for Lilypad  
- My board identifies as a Lilypad Arduino USB 
- Modified 6th July 2015 Mike Hewitt - used for training purposes
+  Blink   modified for Lily-pad  
+ My board identifies as a Lily-pad Arduino USB 
+ Modified 6Th July 2015 Mike Hewitt - used for training purposes
  
  Turns on an LED on for one second, then off for one second, repeatedly.
  Time period controlled with delay1
@@ -19,10 +19,10 @@
 #define serialDebug 0
 #define delay1   50
 
-// leds on lilypad USB are on pins 2,3,9,10,11,13  i.e. these are the output pins 
+// LED's on lily-pad USB are on pins 2,3,9,10,11,13  i.e. these are the output pins 
 // which of these can do PWM? 
 
-int ledarray [] {9,10,11,2,3,13}; // 13 is onboard
+int ledarray [] {9,10,11,2,3,13}; // 13 is on-board
 const int numLEDS =  6; // 4 ;
 
 void ledFlash (int whichLED, int numTimes, int delayv) {
@@ -70,7 +70,7 @@ void loop() {
   }
 
   //  }
-  //  delayvalue= delayvalue + 5;      // slow the blinking down over time
+  //  delay-value= delay-value + 5;      // slow the blinking down over time
   if (serialDebug) {
     Serial.print("delayvalue=: ");
     Serial.println(delayvalue);

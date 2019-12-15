@@ -13,7 +13,7 @@
 
 // change fadeArrayLen to reflect number in array - executing this shows which LEDs are PWMable
 // seems different for Arduino
-// trying to fade a non-fadeable LED displays a JUMP in brightness  e.g. pin 2
+// trying to fade a non-fade-able LED displays a JUMP in brightness  e.g. pin 2
 
 int fadeArray[] = {3, 9, 10, 11, 2, 13}; // array of all PWM capable LEDs
 int fadeArrayLen = 6;
@@ -48,8 +48,8 @@ void fadeAll() {
   }
   brightness = brightness + fadeAmount;
   // notice that fadeAmount is set (written to) twice in loop() 
-  // brightness = brightness + fadeAmount;
-  // brightness = brightness + fadeAmount;
+  // brightness = brightness + fade Amount;
+  // brightness = brightness + fade Amount;
   if (brightness <= 1 || brightness >= 255) {
     fadeAmount = -fadeAmount ;
   }

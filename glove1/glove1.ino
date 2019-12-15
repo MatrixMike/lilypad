@@ -5,10 +5,10 @@
  April 7 2017
  
  glove1 on 14-Aug-2015
- 17-aug-2015
+ 17-Aug-2015
  */
 
-// trying to fade a non-fadeable LED displays a JUMP in brightness  e.g. pin 2
+// trying to fade a non-fade-able LED displays a JUMP in brightness  e.g. pin 2
 
 int fadeArray[] = {
   3, 9, 10, 11, 2, 13}; // array of all PWM capable LEDs
@@ -18,7 +18,7 @@ int fadeAmount = 5;    // how many points to fade the LED by
 
 
 #define delaybase 6
-// explain what delaybase is for
+// explain what delay-base is for
 
 // glove use pins 13,3,9,10,11
 int ledCount = 6;

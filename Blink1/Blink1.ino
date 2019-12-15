@@ -1,6 +1,6 @@
 /*
-  Blink   modified for Lilypad  
-  My board identifies as a Lilypad Arduino USB 
+  Blink   modified for Lily-pad  
+  My board identifies as a Lily-pad Arduino USB 
   
   
   Turns on an LED on for one second, then off for one second, repeatedly.
@@ -17,7 +17,7 @@ int led13 = 13;
 
 #define delay1   50
 
-// leds on lilypad are on pins 2,3,9,10,11,13  
+// LED's on lily-pad are on pins 2,3,9,10,11,13  
 
 int ledarray [3] ; 
 

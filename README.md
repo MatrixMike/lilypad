@@ -1,5 +1,10 @@
 # lilypad
-# revisited Mon 14 Oct 2019 19:42:05 AEDT 
+# revisited Mon 14 Oct 2019 19:42:05 
+# revisited Sun Dec 15 18:21:10 2019 
+perform a spell check using  
+<code>
+aspell --mode=ccpp -c shiftReg1.ino
+</code>
 collection of example programs for Arduino Lilypad (USB) as 
 inspired by WIE
 

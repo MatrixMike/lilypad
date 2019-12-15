@@ -25,7 +25,7 @@
  This example code is in the public domain.
 
 */
-//  Mod Mike Hewitt 19-aug-2015
+//  Mod Mike Hewitt 19-Aug-2015
 
 // these constants describe the pins. They won't change:
 const int groundpin = 18;             // analog input pin 4 -- ground
